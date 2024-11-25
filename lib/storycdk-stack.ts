@@ -10,7 +10,7 @@ export class StorycdkStack extends cdk.Stack {
     super(scope, id, props)
 
     new AstroAWS(this, "AstroAWS", {
-      websiteDir: "../my-astro-project",
+      websiteDir: "../story",
     })
 
     // The code that defines your stack goes here
