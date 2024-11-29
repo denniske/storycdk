@@ -4,6 +4,7 @@
   "bin": {
     "storycdk": "bin/storycdk.js"
   },
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
